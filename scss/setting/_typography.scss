@@ -1,0 +1,35 @@
+// Googleフォント読み込み
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+$font__main: 'Noto Sans JP', sans-serif;
+
+$font-title_size_sp:20px;//タイトル
+$font-title_size_tb:28px;
+$font-title_size_pc:32px;
+
+
+$font-subtitle_size_sp:20px;//コンテンツ内のサブタイトル
+$font-subtitle_size_tb:25px;
+$font-subtitle_size_pc:28px;
+
+$font-txt_size_sp:16px;//コンテンツ内のテキスト
+$font-txt_size_tb:16px;
+// $font-txt_size_pc:1.2vw;
+
+$blog-txt_size_sp:14px;//ブログ内のテキスト
+$blog-txt_size_tb:16px;
+
+
+$font-item-title_sp:16px;//商品名
+$font-item-title_tb:16px;
+
+$font-access-title_sp:16px;//アクセス
+$font-access-title_tb:16px;
+$font-access-title_pc:1.5vw;
+
+$font-access-content-title_sp:20px;//こだわりコンテンツヘッダー
+$font-access-content-title_pc:2.5vw;
+
+$SP_contact_fontsize: 16px;//お問い合わせ
+$TB_contact_fontsize: 16px;
+$SP_thanks_title: 24px;
+$PC_thanks_title: 35px;

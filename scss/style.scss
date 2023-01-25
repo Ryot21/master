@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+	Theme Name: master
+	Description: "LP"制作のためのmaster。
+	Version: 2023.01.25（更新日）
+	Author: RyotaMaeda
+*/
+
+//色やtypographyの設定を変数で行う
+@import "setting/colors";
+@import "setting/structure";
+@import "setting/typography";
+
+//normalize や リセットのスタイル
+@import "foundation/base";
+@import "foundation/normalize";
+@import "foundation/anime";
+@import "foundation/current";
+@import "foundation/hover";
+
+//ページを構成するヘッダーやメインのコンテンツエリア、サイドバーやフッターといったプロジェクト共通のコンテナーブロックのスタイル
+// @import "layout/**";
+
+//再利用できるパターンとして、小さな単位のモジュール
+// @import "object/compornent/**";
+
+//プロジェクト固有のパターンであり、いくつかのComponentと、それに該当しない要素によって構成されるもの
+// @import "object/project/**";
+
+/* ページごとのスタイル */
+// @import "page/**";
+
+//ComponentとProjectレイヤーのObjectのモディファイアで解決することが難しい・適切では無い、わずかなスタイルの調整のための便利クラスなど
+// @import "object/utility/**";
+
+//外部ライブラリ
+// @import "external/**";
