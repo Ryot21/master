@@ -20,7 +20,9 @@
 @import "foundation/hover";
 
 //ページを構成するヘッダーやメインのコンテンツエリア、サイドバーやフッターといったプロジェクト共通のコンテナーブロックのスタイル
-// @import "layout/**";
+@import "layout/container";
+@import "layout/contents";
+@import "layout/flex";
 
 //再利用できるパターンとして、小さな単位のモジュール
 // @import "object/compornent/**";
